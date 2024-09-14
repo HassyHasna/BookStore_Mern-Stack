@@ -1,0 +1,90 @@
+/* Body Styles */
+.body {
+  background-color: #f7f9fc; /* Fallback color */
+  background-image: url('https://asset.gecdesigns.com/img/background-templates/royal-blue-background-design-with-golden-triangle-stripes-sr06012410-1704700322780-cover.webp'); /* Path to your background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the background image */
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+  font-family: 'Arial', sans-serif; /* Clean and professional font */
+  color: #333; /* Dark gray text color for readability */
+  padding: 1rem; /* Padding around the body for spacing */
+}
+
+/* Container Styles */
+.p-4 {
+  padding: 2rem;
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 0.75rem; /* Slightly larger rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Button Styles */
+button {
+  background-color: #0056b3; /* Dark blue for buttons */
+  color: #ffffff; /* White text for buttons */
+  border: none; /* Remove default border */
+  padding: 0.75rem 1.5rem; /* Padding for button size */
+  border-radius: 0.5rem; /* Rounded corners for buttons */
+  font-size: 1rem; /* Font size for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #004494; /* Slightly darker blue on hover */
+}
+
+/* Button for Add Icon */
+.text-sky-800 {
+  color: #003366; /* Darker blue for icons */
+}
+
+/* Card Styles */
+.books-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust card size and spacing */
+  gap: 1rem;
+}
+
+.books-card .card {
+  border: 1px solid #e1e5ea; /* Light gray border for cards */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #003366; /* Dark blue card background */
+  color: #ffffff; /* White text color for cards */
+  width: 100px; /* Fixed width for cards */
+  height: 100px; /* Fixed height for cards to make it square */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Table Styles */
+.books-table {
+  width: 100%;
+  border-collapse: collapse; /* Ensure borders collapse for a clean look */
+}
+
+.books-table th, .books-table td {
+  border: 1px solid #e1e5ea; /* Light gray border for table cells */
+  padding: 1rem;
+  text-align: left;
+}
+
+.books-table th {
+  background-color: #0056b3; /* Dark blue background for headers */
+  color: #ffffff; /* White text for headers */
+}
+
+.books-table tr:nth-child(even) {
+  background-color: #f2f4f8; /* Alternating row colors for readability */
+}
+
+.books-table tr:hover {
+  background-color: #e9efff; /* Light blue highlight on hover */
+}
